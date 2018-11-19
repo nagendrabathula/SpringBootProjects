@@ -1,0 +1,102 @@
+2018-10-05 16:39:44.545  INFO 2656 --- [main] com.actuator.ActuatorDemoApplication     : Starting ActuatorDemoApplication on DESKTOP-B8MP7LK with PID 2656 (E:\Neon\PlayGround\ActuatorDemo\bin\main started by DELL in E:\Neon\PlayGround\ActuatorDemo)
+2018-10-05 16:39:44.650 DEBUG 2656 --- [main] com.actuator.ActuatorDemoApplication     : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-10-05 16:39:44.654  INFO 2656 --- [main] com.actuator.ActuatorDemoApplication     : No active profile set, falling back to default profiles: default
+2018-10-05 16:39:44.787  INFO 2656 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4690b489: startup date [Fri Oct 05 16:39:44 IST 2018]; root of context hierarchy
+2018-10-05 16:39:48.780  INFO 2656 --- [main] org.eclipse.jetty.util.log               : Logging initialized @8015ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-10-05 16:39:49.347  INFO 2656 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2018-10-05 16:39:49.350  INFO 2656 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+2018-10-05 16:39:49.641  INFO 2656 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2018-10-05 16:39:49.642  INFO 2656 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2018-10-05 16:39:49.654  INFO 2656 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2018-10-05 16:39:49.668  INFO 2656 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2018-10-05 16:39:49.670  INFO 2656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4883 ms
+2018-10-05 16:39:50.744  INFO 2656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-05 16:39:50.745  INFO 2656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-10-05 16:39:50.746  INFO 2656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-05 16:39:50.746  INFO 2656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-05 16:39:50.759  INFO 2656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-05 16:39:50.759  INFO 2656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-10-05 16:39:50.760  INFO 2656 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-10-05 16:39:50.770  INFO 2656 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4a3be6a5{application,/,[file:///C:/Users/DELL/AppData/Local/Temp/jetty-docbase.7309847146301143135.8080/],AVAILABLE}
+2018-10-05 16:39:50.772  INFO 2656 --- [main] org.eclipse.jetty.server.Server          : Started @10008ms
+2018-10-05 16:39:50.983  INFO 2656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-05 16:39:51.327  INFO 2656 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4690b489: startup date [Fri Oct 05 16:39:44 IST 2018]; root of context hierarchy
+2018-10-05 16:39:51.492  INFO 2656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.actuator.MyRestController.sayHello()
+2018-10-05 16:39:51.502  INFO 2656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-05 16:39:51.507  INFO 2656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-05 16:39:51.614  INFO 2656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-05 16:39:51.646  INFO 2656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-05 16:39:52.503  INFO 2656 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-10-05 16:39:52.519  INFO 2656 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-10-05 16:39:52.521  INFO 2656 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-10-05 16:39:52.522  INFO 2656 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-05 16:39:52.631  INFO 2656 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-05 16:39:52.680  INFO 2656 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-05 16:39:52.680  INFO 2656 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-05 16:39:52.710  INFO 2656 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-10-05 16:39:52.831  INFO 2656 --- [main] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@70f822e{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2018-10-05 16:39:52.832  INFO 2656 --- [main] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2018-10-05 16:39:52.836  INFO 2656 --- [main] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-10-05 16:39:52.837  INFO 2656 --- [main] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@4a3be6a5{application,/,[file:///C:/Users/DELL/AppData/Local/Temp/jetty-docbase.7309847146301143135.8080/],UNAVAILABLE}
+2018-10-05 16:39:52.850  INFO 2656 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-10-05 16:39:52.854 ERROR 2656 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2018-10-05 16:39:52.856  INFO 2656 --- [main] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4690b489: startup date [Fri Oct 05 16:39:44 IST 2018]; root of context hierarchy
+2018-10-05 16:39:52.862  INFO 2656 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-10-05 16:40:37.594  INFO 16512 --- [main] com.actuator.ActuatorDemoApplication     : Starting ActuatorDemoApplication on DESKTOP-B8MP7LK with PID 16512 (E:\Neon\PlayGround\ActuatorDemo\bin\main started by DELL in E:\Neon\PlayGround\ActuatorDemo)
+2018-10-05 16:40:37.601 DEBUG 16512 --- [main] com.actuator.ActuatorDemoApplication     : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-10-05 16:40:37.604  INFO 16512 --- [main] com.actuator.ActuatorDemoApplication     : No active profile set, falling back to default profiles: default
+2018-10-05 16:40:37.736  INFO 16512 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ef888f6: startup date [Fri Oct 05 16:40:37 IST 2018]; root of context hierarchy
+2018-10-05 16:40:40.359  INFO 16512 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4802ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-10-05 16:40:40.779  INFO 16512 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 1010
+2018-10-05 16:40:40.783  INFO 16512 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+2018-10-05 16:40:40.982  INFO 16512 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2018-10-05 16:40:40.983  INFO 16512 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2018-10-05 16:40:40.987  INFO 16512 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2018-10-05 16:40:40.996  INFO 16512 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2018-10-05 16:40:40.997  INFO 16512 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3260 ms
+2018-10-05 16:40:41.944  INFO 16512 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-05 16:40:41.948  INFO 16512 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-10-05 16:40:41.949  INFO 16512 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-05 16:40:41.949  INFO 16512 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-05 16:40:41.950  INFO 16512 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-05 16:40:41.951  INFO 16512 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-10-05 16:40:41.951  INFO 16512 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-10-05 16:40:41.965  INFO 16512 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@65bcf7c2{application,/,[file:///C:/Users/DELL/AppData/Local/Temp/jetty-docbase.4207184345181530461.1010/],AVAILABLE}
+2018-10-05 16:40:41.967  INFO 16512 --- [main] org.eclipse.jetty.server.Server          : Started @6411ms
+2018-10-05 16:40:42.123  INFO 16512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-05 16:40:42.465  INFO 16512 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ef888f6: startup date [Fri Oct 05 16:40:37 IST 2018]; root of context hierarchy
+2018-10-05 16:40:42.648  INFO 16512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.actuator.MyRestController.sayHello()
+2018-10-05 16:40:42.654  INFO 16512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-05 16:40:42.655  INFO 16512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-05 16:40:42.787  INFO 16512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-05 16:40:42.788  INFO 16512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-05 16:40:43.591  INFO 16512 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-10-05 16:40:43.608  INFO 16512 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-10-05 16:40:43.610  INFO 16512 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-10-05 16:40:43.611  INFO 16512 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-05 16:40:43.705  INFO 16512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-05 16:40:43.781  INFO 16512 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-05 16:40:43.781  INFO 16512 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-05 16:40:43.803  INFO 16512 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-10-05 16:40:43.934  INFO 16512 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@4d8286c4{HTTP/1.1,[http/1.1]}{0.0.0.0:1010}
+2018-10-05 16:40:43.946  INFO 16512 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 1010 (http/1.1) with context path '/'
+2018-10-05 16:40:43.951  INFO 16512 --- [main] com.actuator.ActuatorDemoApplication     : Started ActuatorDemoApplication in 7.385 seconds (JVM running for 8.395)
+2018-10-05 16:40:43.955 ERROR 16512 --- [main] com.actuator.ActuatorDemoApplication     : At Error Level
+2018-10-05 16:40:43.955  WARN 16512 --- [main] com.actuator.ActuatorDemoApplication     : At Warn Level
+2018-10-05 16:40:43.955 DEBUG 16512 --- [main] com.actuator.ActuatorDemoApplication     : At Debug Level
+2018-10-05 16:40:43.955  INFO 16512 --- [main] com.actuator.ActuatorDemoApplication     : At info Level

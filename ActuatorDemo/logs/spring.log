@@ -1,0 +1,43 @@
+2018-09-14 21:07:05.986  INFO 15820 --- [main] com.actuator.ActuatorDemoApplication     : Starting ActuatorDemoApplication on DESKTOP-B8MP7LK with PID 15820 (E:\Neon\PlayGround\ActuatorDemo\bin\main started by DELL in E:\Neon\PlayGround\ActuatorDemo)
+2018-09-14 21:07:05.992 DEBUG 15820 --- [main] com.actuator.ActuatorDemoApplication     : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-14 21:07:05.996  INFO 15820 --- [main] com.actuator.ActuatorDemoApplication     : No active profile set, falling back to default profiles: default
+2018-09-14 21:07:06.127  INFO 15820 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2473d930: startup date [Fri Sep 14 21:07:06 IST 2018]; root of context hierarchy
+2018-09-14 21:07:08.597  INFO 15820 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4534ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-14 21:07:09.070  INFO 15820 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2018-09-14 21:07:09.073  INFO 15820 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+2018-09-14 21:07:09.289  INFO 15820 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2018-09-14 21:07:09.289  INFO 15820 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2018-09-14 21:07:09.295  INFO 15820 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2018-09-14 21:07:09.306  INFO 15820 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2018-09-14 21:07:09.307  INFO 15820 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3180 ms
+2018-09-14 21:07:10.432  INFO 15820 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-14 21:07:10.437  INFO 15820 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-09-14 21:07:10.437  INFO 15820 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-14 21:07:10.437  INFO 15820 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-14 21:07:10.438  INFO 15820 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-14 21:07:10.438  INFO 15820 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-09-14 21:07:10.438  INFO 15820 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-14 21:07:10.445  INFO 15820 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@20095ab4{application,/,[file:///C:/Users/DELL/AppData/Local/Temp/jetty-docbase.311852852767334587.8080/],AVAILABLE}
+2018-09-14 21:07:10.446  INFO 15820 --- [main] org.eclipse.jetty.server.Server          : Started @6382ms
+2018-09-14 21:07:10.610  INFO 15820 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-14 21:07:10.904  INFO 15820 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2473d930: startup date [Fri Sep 14 21:07:06 IST 2018]; root of context hierarchy
+2018-09-14 21:07:11.070  INFO 15820 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.actuator.MyRestController.sayHello()
+2018-09-14 21:07:11.074  INFO 15820 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-14 21:07:11.077  INFO 15820 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-14 21:07:11.120  INFO 15820 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-14 21:07:11.120  INFO 15820 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-14 21:07:11.921  INFO 15820 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-09-14 21:07:11.946  INFO 15820 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-09-14 21:07:11.949  INFO 15820 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-09-14 21:07:11.951  INFO 15820 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-14 21:07:12.049  INFO 15820 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-14 21:07:12.161  INFO 15820 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-14 21:07:12.161  INFO 15820 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-14 21:07:12.180  INFO 15820 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-09-14 21:07:12.957  INFO 15820 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@602ae7b6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2018-09-14 21:07:12.960  INFO 15820 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/'
+2018-09-14 21:07:12.969  INFO 15820 --- [main] com.actuator.ActuatorDemoApplication     : Started ActuatorDemoApplication in 7.863 seconds (JVM running for 8.906)
+2018-09-14 21:07:12.974 ERROR 15820 --- [main] com.actuator.ActuatorDemoApplication     : At Error Level
+2018-09-14 21:07:12.975  WARN 15820 --- [main] com.actuator.ActuatorDemoApplication     : At Warn Level
+2018-09-14 21:07:12.976 DEBUG 15820 --- [main] com.actuator.ActuatorDemoApplication     : At Debug Level
+2018-09-14 21:07:12.977  INFO 15820 --- [main] com.actuator.ActuatorDemoApplication     : At info Level
